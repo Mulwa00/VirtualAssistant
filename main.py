@@ -1,7 +1,7 @@
 import pyttsx3 as p 
 import speech_recognition as sr
 
-from selenium_web import Infow, infow
+from selenium_web import Infow
 
 engine = p.init()
 rate=engine.getProperty('rate')
@@ -48,7 +48,7 @@ if "information" in text2:
         infor = r.recognize_google(audio)
     speak("searching{}inwikipidea".format())
 
-# Example usage
+
 if __name__ == "__main__":
     info = Infow()
     info.get_info("Python programming")
