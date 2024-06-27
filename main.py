@@ -5,7 +5,7 @@ from selenium_web import Infow
 
 engine = p.init()
 rate=engine.getProperty('rate')
-engine.setProperty('rate',165)
+engine.setProperty('rate',160)
 voices=engine.getProperty('voices')
 engine.setProperty('voices',voices[1].id)
 
